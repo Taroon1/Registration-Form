@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="RegistrationStyle.css">
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+
+<body>
+<h1 id="demo">Registration</h1>
+<form id="myform" name="myform" action="/Registration.js" method="post">
+    <input type="text" id="fname" name="fname" size="26" maxlength="10" placeholder="First Name"  autocomplete="off" required>
+    <input type="text" id="lname" name="lname" size="26" maxlength="10" placeholder="Last Name" autocomplete="off" required><br>
+    <input type="email" id="email" name="email" size="56" maxlength="35" placeholder="E-mail" required><br>
+    <input type="password" id="password1" name="password" size="56" maxlength="15" placeholder="Password" required><br>
+    <input type="password" id="password2" name="password" size="56" maxlength="15" placeholder="Password again" required><br>
+    <input type="submit" id="submit" value="Send">
+</form>
+<script src="Registration.js"></script>
+</body>
+</html>

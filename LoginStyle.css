@@ -1,0 +1,33 @@
+body{
+    background-color: lightgray;
+}
+#demo{
+    color: gray;
+    text-align: center;
+    font-family: "Calibri Light";
+    font-size: 54px;
+}
+#myform{
+    text-align: center;
+}
+input{
+    padding-bottom: 16px;
+    margin-bottom: 13px;
+    font-family: "Calibri Light";
+    border: 1px solid white;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 21px;
+}
+#submit0{
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial;
+    color:darkgray;
+}
+#submit0:hover{
+    background-color: gray;
+    border: 1px solid black;
+}
